@@ -33,7 +33,7 @@ const Reader: NextPage = () => {
         }}
         onResult={(result) => {
           if (!!result) {
-            router.push('/success');
+            router.push('/proximity');
           }
         }}
       />
