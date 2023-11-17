@@ -39,10 +39,10 @@ const Success: NextPage = () => {
             </div>
             <div className={styles.row}>
               <div className={styles.cellLeft}>
-                <p className={styles.cellContent}>Vittorio</p>
+                <p className={styles.cellContent}>Mario</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellContent}>Colao</p>
+                <p className={styles.cellContent}>Rossi</p>
               </div>
             </div>
             <div className={styles.row}>
@@ -50,49 +50,33 @@ const Success: NextPage = () => {
                 <p className={styles.cellHeader}>Data di nascita</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellHeader}>Numero Licenza</p>
+                <p className={styles.cellHeader}>Numero seriale</p>
               </div>
             </div>
             <div className={styles.row}>
               <div className={styles.cellLeft}>
-                <p className={styles.cellContent}>01/01/1980</p>
+                <p className={styles.cellContent}>02/06/2000</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellContent}>U192B850K</p>
+                <p className={styles.cellContent}>12345678</p>
               </div>
             </div>
             <div className={styles.row}>
               <div className={styles.cellLeft}>
-                <p className={styles.cellHeader}>Tipo</p>
+                <p className={styles.cellHeader}>Diritto accompagnatore</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellHeader}>Valido dal</p>
+                <p className={styles.cellHeader}>Rilasciata da</p>
               </div>
             </div>
             <div className={styles.row}>
               <div className={styles.cellLeft}>
-                <p className={styles.cellContent}>A</p>
+                <p className={styles.cellContent}>1</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellContent}>27/10/2010</p>
-              </div>
-            </div>
-            <div className={styles.row}>
-              <div className={styles.cellLeft}>
-                <p className={styles.cellContent}>B</p>
-              </div>
-              <div className={styles.cellRight}>
-                <p className={styles.cellContent}>12/05/1996</p>
-              </div>
-            </div>
-            <div className={styles.row}>
-              <div className={styles.cellLeft}>
-                <p className={styles.cellHeader}>Data di scadenza</p>
-              </div>
-            </div>
-            <div className={styles.row}>
-              <div className={styles.cellLeft}>
-                <p className={styles.cellContent}>03/10/2025</p>
+                <p className={styles.cellContent}>
+                  Ministero per le disabilità
+                </p>
               </div>
             </div>
           </div>
