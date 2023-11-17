@@ -3,13 +3,17 @@ import styles from '../styles/Proximity.module.css';
 import Header from '../components/Header';
 import Spinner from '../components/Spinner';
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const Proximity: NextPage = () => {
+  const router = useRouter();
+
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = '/success';
+      router.push('/success');
     }, 5000);
-  }, []);
+  }, [router]);
+
   return (
     <>
       <Header />
