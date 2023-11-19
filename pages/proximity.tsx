@@ -9,9 +9,13 @@ const Proximity: NextPage = () => {
   const router = useRouter();
 
   useEffect(() => {
-    setTimeout(() => {
+    const timeoutID = setTimeout(() => {
       router.push('/success');
     }, 5000);
+
+    return () => {
+      clearTimeout(timeoutID);
+    };
   }, [router]);
 
   return (

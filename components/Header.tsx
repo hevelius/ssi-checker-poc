@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header>
-      <button onClick={() => router.back()} className={styles.btnBack}>
+      <button onClick={() => router.push('/')} className={styles.btnBack}>
         <FontAwesomeIcon
           icon={faArrowLeft}
           style={{ fontSize: 44, color: 'black' }}
